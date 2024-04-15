@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "m02_layout"
 include(":app")
- 
+include(":mo1_hello_world")

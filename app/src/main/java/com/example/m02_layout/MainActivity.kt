@@ -11,9 +11,15 @@ import androidx.core.view.setPadding
 import com.example.m02_layout.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+   lateinit var  binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.custom.setMessageTopText("верхняя строчка, настроенная из кода")
+        binding.custom.setMessageBottomText("нижняя строчка, настроенная из кода")
     }
 }
-
+//---------------------Можно вывести и через данные методы------------------------
+//resources.getString(R.string.topText) //верхний текст
+//resources.getString(R.string.bottomTExt) // нижний текст

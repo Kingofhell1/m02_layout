@@ -29,7 +29,7 @@
             android:visibility="visible">
 
             <TextView
-                android:id="@+id/firstLineTxt"
+                android:id="@+id/topText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -39,11 +39,10 @@
                 android:textStyle="bold"
                 android:visibility="visible"
                 tools:text="@tools:sample/lorem/random"
-                android:text="Первая строчка"
                 />
 
             <TextView
-                android:id="@+id/secondLineTxt"
+                android:id="@+id/bottomText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ellipsize="middle"
@@ -52,7 +51,6 @@
                 android:textStyle="bold"
                 android:visibility="visible"
                 tools:text="@tools:sample/lorem/random"
-                android:text="Вторая строчка"
                 />
         </LinearLayout>
     </LinearLayout>

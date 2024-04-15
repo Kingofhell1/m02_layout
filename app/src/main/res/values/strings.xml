@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">m02_layout</string>
+    <string name="topText">Верхняя строчка</string>
+    <string name="bottomTExt">Нижняя строчка</string>
 </resources>
